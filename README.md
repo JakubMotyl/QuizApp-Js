@@ -2,7 +2,7 @@
 
 Simple browser-based quiz application (no build step). Uses static files to present a shuffled quiz, track per-quiz score and accumulate a total score across sessions while the page is open.
 
-Website: ['quiz-app'](https://quiz-app-js-alpha.vercel.app/)
+Website: [Quiz app](https://quiz-app-js-alpha.vercel.app/)
 
 Key behaviors are implemented in [`app.js`](app.js): [`showFrontPage`](app.js), [`shuffleQuestions`](app.js), [`showQuizPage`](app.js) and [`finalPage`](app.js). Question data is exported from [`questions`](data.js) in [`data.js`](data.js). Main HTML and styles are in [`index.html`](index.html) and [`style.css`](style.css).
 
