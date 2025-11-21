@@ -49,10 +49,10 @@ const showFrontPage = () => {
           <p class="category-title">👉 Practice now</p>
           <button id="startQuiz1" class="start-quiz">
             <div class="quiz-icon">
-              <i class="fa-regular fa-face-smile"></i>
+              <i class="fa-solid fa-laptop"></i>
             </div>
             <div style="display: flex; flex-direction:column; align-items:start;">
-              <p class="quiz-title">Daily Quiz</p>
+              <p class="quiz-title">Web Development</p>
               <span class="quiz-desc">10 mixed questions</span>
             </div>
           </button>
