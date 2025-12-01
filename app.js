@@ -1,4 +1,5 @@
 import { questions } from "./data.js";
+import { shuffleQuestions } from "./utils/main.js";
 
 const unavailableCategories = [
   {
@@ -87,15 +88,6 @@ const showFrontPage = () => {
   startQuizBtn.addEventListener("click", () => {
     showQuizPage(welcomeEl);
   });
-};
-
-const shuffleQuestions = (array) => {
-  const arr = [...array];
-  for (let i = arr.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [arr[i], arr[j]] = [arr[j], arr[i]];
-  }
-  return arr;
 };
 
 const showQuizPage = (welcomeEl) => {
