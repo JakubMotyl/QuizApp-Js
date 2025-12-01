@@ -1,5 +1,3 @@
-### 4. Quiz App
-
 # Quiz App 🧠
 
 An interactive vanilla JavaScript quiz featuring randomized questions, a countdown timer, and high score saved to Local Storage.
